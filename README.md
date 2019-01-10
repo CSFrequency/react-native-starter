@@ -8,7 +8,7 @@ A simple React Native Starter app providing the following:
 - [Multiple environment support](#multiple-environments)
 - [Other tips and tricks](#other-tips-and-tricks)
 
-> This app provides the basis for all CS Frequency's React Native apps.
+> This app provides the basis for all [CS Frequency's React Native apps](https://csfrequency.com/products/).
 
 ## Getting started
 

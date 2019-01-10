@@ -14,11 +14,11 @@ A simple React Native Starter app providing the following:
 
 ### Clone and install dependencies
 
-- Clone the `rn-starter` repository with the following command:
+- Clone the `react-native-starter` repository with the following commands:
 
     ```
-    git clone https://github.com/CSFrequency/rn-starter
-    cd rn-starter
+    git clone https://github.com/CSFrequency/react-native-starter
+    cd react-native-starter
     ```
 
 - Install dependencies:
@@ -34,7 +34,6 @@ A simple React Native Starter app providing the following:
     pod install
     ```
     
-
 ### Rename your app
 
 We've provided a simple renaming tool that allows you to use your own application and company name.
@@ -155,6 +154,8 @@ const Text = (
   </Text>
 );
 ```
+
+---
 
 ## Contributing
 

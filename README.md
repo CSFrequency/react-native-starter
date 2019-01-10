@@ -32,6 +32,7 @@ A simple React Native Starter app providing the following:
     ```
     cd ios
     pod install
+    cd ..
     ```
     
 ### Rename your app
@@ -53,7 +54,11 @@ We've provided a simple renaming tool that allows you to use your own applicatio
 - **[iOS]** Build and run the iOS app:
 
     ```
-    react-native run-ios
+    // Debug
+    react-native run-ios --scheme="{AppName} - Debug"
+    
+    // Release
+    react-native run-ios --scheme="{AppName} - Release"
     ```
 
     > This will automatically start the iOS simulator for you if one is not already started.

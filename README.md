@@ -2,10 +2,11 @@
 
 A simple React Native Starter app providing the following:
 
-- [React Navigation](https://reactnavigation.org/) setup
-- Email login and registration flow ready to integrate with your backend of choice
-- Flow, ESLint and Prettier setup and configuration
-- Multiple environment support
+- [React Navigation setup](#react-navigation-setup)
+- [Email login and registration flow ready to integrate with your backend of choice](#login-and-registration-flow)
+- [Flow, ESLint and Prettier setup and configuration](#flow-eslint-and-prettier)
+- [Multiple environment support](#multiple-environments)
+- [Other tips and tricks](#other-tips-and-tricks)
 
 > This app provides the basis for all CS Frequency's React Native apps.
 
@@ -118,6 +119,42 @@ This allows you to use different configuration files for each environment:
     - Debug: `android/app/src/debug`
     - Release: `android/app/src/release`
     - Shared: `android/app/src/main
+
+## Other tips and tricks
+
+### No relative paths
+
+We've added `package.json` module files into our top level directories `assets`, `components` and `theme` to ensure you no longer have to use unwieldy relative paths.  This means you can simply do the following:
+
+```
+import { Button } from 'Components`;
+```
+
+### Assets shorthand
+
+We load all assets in a single file `src/assets/index.js` so you can do the following:
+
+```
+import { Image } from 'react-native';
+import assets from 'Assets';
+
+const Logo = <Image src={assets.logo} />;
+```
+
+### Themes
+
+We set up some simple color and navigation themes in `src/theme/index.js` so you can do the following:
+
+```
+import { Text } from 'react-native';
+import { colors } from 'Theme';
+
+const Text = (
+  <Text style={{color: colors.primary}}>
+    Example
+  </Text>
+);
+```
 
 ## Contributing
 

@@ -63,7 +63,7 @@ We've provided a simple renaming tool that allows you to use your own applicatio
 
   > This will automatically start the iOS simulator for you if one is not already started.
 
-3. **Android** Build and run the Android app:
+3. **[Android]** Build and run the Android app:
 
    > You'll need to have an Android device attached or an emulator running already.
 

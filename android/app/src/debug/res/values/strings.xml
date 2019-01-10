@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AppTemplate - Debug</string>
+    <string name="application_id">com.csfrequency.template.debug</string>
+</resources>
